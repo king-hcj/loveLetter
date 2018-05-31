@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width: 778px;
+	margin: 0 auto;
+}
+#top {
+	background-image: url(images/top1.gif);
+	background-repeat: no-repeat;
+	height: 154px;
+}
+body {
+	font-family: Tahoma, "Trebuchet MS", Arial;
+	font-size: 11px;
+	color: #c6b3a8;
+	margin: 0px;
+	padding: 0px;
+	background-color: #6C0000;
+}
+#bottom {
+	background-image: url(images/cbg.gif);
+	background-repeat: repeat-y;
+	padding: 0 108px 0 105px;
+}
+#nav {
+	height: 49px;
+}
+#framebox {
+	background-image: url(images/frame.jpg);
+	background-repeat: no-repeat;
+	height: 306px;
+	padding: 45px 47px 0 297px;
+}
+.orangetitle {
+	
+	font-size: 26px;
+	color: #FF6600;
+	font-weight: bold;
+}
+.redboldtext {
+	font-weight: bold;
+	color: #b54932;
+}
+
+.mycontents {  /*自定义*/
+	font-weight: bold;
+	font-size: 16px;
+	color:#00ced1;
+}
+
+.redbox {
+	background-color: #582000;
+	padding: 6px;
+}
+.leftimg {
+	float: left;
+	padding-right: 7px;
+	display: block;
+}
+.rightimg {
+	float: right;
+	padding-left: 7px;
+	display: block;
+}
+
+.loginbox {
+	background-image: url(images/memberbg.gif);
+	background-repeat: no-repeat;
+	height: 89px;
+	width: 196px;
+	padding: 10px;
+	margin-top: 6px;
+}
+.loginbox label {
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	width: 72px;
+	display: block;
+}
+.loginbox input {
+	font-family: "Verdana";
+	font-size: 11px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 90px;
+}
